@@ -73,7 +73,7 @@ main {
 }
 .popit-banner__image{
     width: 46vw;
-    height: 50vh;
+    height: auto;
     margin-right: 12vw;
 }
 .popit-info {
@@ -81,7 +81,7 @@ main {
     flex-direction: column; 
     align-items: center; 
     text-align: center;
-    height: 49vh;
+    height: auto;
 }
 .popit-banner h2 {
     flex-direction: column;
@@ -250,7 +250,7 @@ main {
     }
     .footer__menu {
         font-size: medium;
-        justify-content: normal;
+        justify-content: center;
         gap: 4em;
     }
 }
@@ -340,7 +340,7 @@ main {
     }
     .footer__menu {
         font-size: 10px;
-        justify-content: normal;
+        justify-content: center;
         gap: 3.8em;
     }
     
@@ -368,7 +368,6 @@ main {
     }
     .footer__menu {
         font-size: 10px;
-        justify-content: left;
         gap: 2.6em;
     }
     .site-header {
@@ -378,8 +377,8 @@ main {
     .site-header__aside {
         align-items: normal;
         font-size: small;
-        justify-content: normal;
-        gap: 1em;
+        justify-content: center;
+        gap: 4em;
     }
     .game-rules__image1 {
        
@@ -405,7 +404,6 @@ main {
     }
     .footer__menu {
         font-size: 10px;
-        justify-content: left;
         gap: 1.3em;
     }
     .site-header__aside {
