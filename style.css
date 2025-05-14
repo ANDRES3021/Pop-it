@@ -9,6 +9,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 22px;
 }
 .nav__menu {
     display: flex;
@@ -45,15 +46,16 @@ main {
     z-index: 4;
     position: relative;
     left: 36%;
-    top: 3%;
+    top: 15%;
     
 }
 
 .text__paragraph.text__paragraph--small {
     width: 50vw;
     position: relative;
-    left: 55%;
-    top: -36px;
+    left: 51%;
+    top: 9%;
+    font-size: larger;
   }
 
 .site-header {
@@ -142,6 +144,7 @@ main {
 }
 .game-rules__image1 {
     width: 80vw;
+    height: 55vh;
     
 }
 
@@ -150,7 +153,7 @@ main {
     height: auto;
     position: relative;
     right: -62%;
-    top: -139%;  
+    top: -116%;  
     border: 2px solid white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -177,15 +180,16 @@ main {
 
 .game-rules__caption {
     position: relative;
-    top: -70%;   
+    top: -57%;   
     left: 6%;     
     width: 50vw;
 }
 .game-rules__title {
     position: relative;
-    top: 27%;
+    top: 32%;
     left: 6%;;   
     width: 30vw;
+    font-size: 40px;
 }
 .game-rules__image-container {
     margin: 0;
