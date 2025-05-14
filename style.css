@@ -194,7 +194,7 @@ main {
 }
 @media (min-width: 1200px){
     .site-header {
-        height: 9vh;
+        height: auto;
     }
 }
 @media (max-width: 991px) {
@@ -213,7 +213,7 @@ main {
     }
     .popit-banner__image {
         width: 53vw;
-        height: 83vh;
+        height: auto;
         
     }
     .game-rules__image2 {
@@ -240,7 +240,7 @@ main {
     display: inline;
     }
     .popit-info {
-        height: 51vh;
+        height: auto;
     }
     .site-header__aside {
         justify-content: space-around;
@@ -257,7 +257,7 @@ main {
 
 @media (max-width: 480px){
     .site-header {
-        height: 11vh;
+        height: auto;
         width: 108vw;
     }
     .site-header__aside {
@@ -285,16 +285,16 @@ main {
     }
     .game-rules__image-container {
         margin: 0;
-        height: 73vh;
+        height: 27vh;
         overflow: hidden;
     }
     .popit-banner__image {
         width: 51vw;
-        height: 74vh;
+        height: auto;
         margin-right: 9vw;
     }
     .popit-info {
-        height: 69vh;
+        height: auto;
     }
     .popit-selection__items{
         display: flex;
@@ -309,33 +309,30 @@ main {
         position: relative;
         top: 20px;
         left: -28px;
-        width: 108vw;
+        width: 100vw;
     }
     .game-rules__image2 {
         width: 35vw;
         height: auto;
         position: relative;
-        right: -59%;
-        top: -103%;
+        transform: translate(5%, 177%);
     }
     .game-rules__title {
         z-index: 4;  
-        top: 33%;
-        left: 6%;
-        font-size: large;
+        transform: translate(5%, 194%);
+        font-size: medium;
     }
     .game-rules__caption {
         display: flex;
-        top: -46%;
-        left: 6%;
+        transform: translate(5%, 156%);
         font-size: 10px;
         width: 56vw;
     }
     .game-rules__content {
-        height: 73vh;
+        height: 27vh;
     }
     .game-rules {
-        height: 79vh;
+        height: auto;
         margin-top: -49px;
     }
     .footer__menu {
@@ -348,30 +345,27 @@ main {
 @media (max-width: 400px){
     
     .game-rules__title {
-        top: 30%;
-        left: 3%;
+        transform: translate(5%, 226%);
         font-size: 13px;
     }
     .game-rules__caption {
-        top: -31%;
-        left: 3%;
+        transform: translate(5%, 234%);
         font-size: 7px;
         width: 52vw;
     }
     .game-rules {
-        height: 60vh;
+        height: auto;
         margin-top: -49px;
     }
     .game-rules__image2 {
-            right: -57%;
-            top: -72%;
+        transform: translate(1%, 190%);
     }
     .footer__menu {
         font-size: 10px;
         gap: 2.6em;
     }
     .site-header {
-        height: 16vh;
+        height: auto;
         width: 100vw;
     }
     .site-header__aside {
