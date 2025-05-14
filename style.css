@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: grid;
+}
+.site-header__aside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__menu {
+    display: flex;
+    gap: 1rem;
+    margin-right: 3em;
+  }
+  
+.nav__home {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 3em
+  }
+  
+.nav__home a{
+    text-decoration: none;
+    color: black;
+    justify-content: flex-end;
+    
+}
+.nav__menu a {
+    text-decoration: none;
+    color: black;
+}
+.text__container{
+    display: flex;
+    flex-direction: column;
+}
+.text__paragraph.text__paragraph--large{
+    color: white;
+    font-size: 5rem;
+    font-family: Arial;
+    font-weight: 900;
+    margin: 19px 98px;
+    z-index: 4;
+    position: relative;
+    left: 36%;
+    top: 3%;
+    
+}
+
+.text__paragraph.text__paragraph--small {
+    width: 50vw;
+    position: relative;
+    left: 55%;
+    top: -36px;
+  }
+
+.site-header {
+    margin: 0;
+    background-color: #ffbf70;
+    height: 7vh;
+    
+    
+}
+.popit-banner{
+    display: flex;
+    background-color: #ffbf70;
+    justify-content: right;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+.popit-banner__image{
+    width: 46vw;
+    height: 50vh;
+    margin-right: 12vw;
+}
+.popit-info {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    height: 49vh;
+}
+.popit-banner h2 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    font-size: medium;
+    margin-right: 14vw;
+    margin-left: 8vw
+}
+.popit-info__text {
+    margin-right: 12vw;
+    margin-left: 12vw
+}
+
+.popit-selection__items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.popit-selection__title {
+    text-align: center;
+}
+.popit-selection {
+    background-color: #cbf3f0;
+    
+    
+}
+.popit-banner__image {
+    display: flex;
+}
+
+.popit-selection__figure--square,
+.popit-selection__figure--amongus,
+.popit-selection__figure--round {
+    display: flex;
+    flex-direction: column;
+}
+.popit-selection__button.popit-selection__button--square{
+    background-color: #ffbf70;
+    border: 2px solid #ffbf70;
+    padding: 10px;
+}
+.popit-selection__button.popit-selection__button--amongus{
+    background-color: #ffbf70;
+    border: 2px solid #ffbf70;
+    padding: 10px;
+}
+.popit-selection__button.popit-selection__button--round{
+    background-color: #ffbf70;
+    border: 2px solid #ffbf70;
+    padding: 10px;
+}
+.popit-selection  img{
+    width: 10vw;
+    
+}
+.game-rules__image1 {
+    width: 80vw;
+    
+}
+
+.game-rules__image2 {
+    width: 30vw;
+    height: auto;
+    position: relative;
+    right: -62%;
+    top: -139%;  
+    border: 2px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.game-rules__description{
+    display: flex;
+    justify-content: left;
+    margin: 0 53vw 0 1vw;
+}
+.site-footer {
+    background-color: #333333;
+    
+    
+}
+.footer__menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0 12px 0;
+}
+.site-footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.game-rules__caption {
+    position: relative;
+    top: -70%;   
+    left: 6%;     
+    width: 50vw;
+}
+.game-rules__title {
+    position: relative;
+    top: 27%;
+    left: 6%;;   
+    width: 30vw;
+}
+.game-rules__image-container {
+    margin: 0;
+    height: 30vw;
+    overflow: hidden;
+}
+@media (min-width: 1200px){
+    .site-header {
+        height: 9vh;
+    }
+}
+@media (max-width: 991px) {
+    .site-header {
+        height: 7vh; 
+    }
+    .site-header__aside {
+        justify-content: space-around;
+        gap: 11em;
+    }
+    .text__paragraph.text__paragraph--small{
+        width: 39vw;
+    }
+    .text__paragraph.text__paragraph--large {
+        margin: 8px 52px;
+    }
+    .popit-banner__image {
+        width: 53vw;
+        height: 83vh;
+        
+    }
+    .game-rules__image2 {
+        top: -173%;
+        right: -61%
+    }
+    .game-rules__image1 {
+        position: relative;
+        top: -30px;
+        
+    }
+    .game-rules__title {
+        z-index: 4;  
+        top: 16%;
+        left: 6%;
+    }
+    .game-rules__caption {
+        top: -84%;
+        left: 6%;
+    }
+    .popit-selection__figure.popit-selection__figure--square,
+    .popit-selection__figure--amongus,
+    .popit-selection__figure--round {
+    display: inline;
+    }
+    .popit-info {
+        height: 51vh;
+    }
+    .site-header__aside {
+        justify-content: space-around;
+    }
+    .popit-banner{
+        margin-top: -1px;
+    }
+    .footer__menu {
+        font-size: medium;
+        justify-content: normal;
+        gap: 4em;
+    }
+}
+
+@media (max-width: 480px){
+    .site-header {
+        height: 11vh;
+        width: 108vw;
+    }
+    .site-header__aside {
+        align-items: normal;
+        font-size: small;
+    }
+    .nav__home {
+        margin-left: 1em;
+    }
+    .nav__menu {
+        margin-right: 0em;
+    }
+    .popit-info__text {
+        font-size: small;
+    }
+    .text__paragraph.text__paragraph--large {
+        margin: 19px 0px;
+        left: 36%;
+        top: 3%;
+        font-size: 3.5em;
+    }
+    .text__paragraph.text__paragraph--small {
+        left: 38%;
+        font-size: small;
+    }
+    .game-rules__image-container {
+        margin: 0;
+        height: 73vh;
+        overflow: hidden;
+    }
+    .popit-banner__image {
+        width: 51vw;
+        height: 74vh;
+        margin-right: 9vw;
+    }
+    .popit-info {
+        height: 69vh;
+    }
+    .popit-selection__items{
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .popit-selection__figure.popit-selection__figure--square,
+    .popit-selection__figure--amongus,
+    .popit-selection__figure--round {
+        align-items: center;
+    }
+    .game-rules__image1 {
+        position: relative;
+        top: 20px;
+        left: -28px;
+        width: 108vw;
+    }
+    .game-rules__image2 {
+        width: 35vw;
+        height: auto;
+        position: relative;
+        right: -59%;
+        top: -103%;
+    }
+    .game-rules__title {
+        z-index: 4;  
+        top: 33%;
+        left: 6%;
+        font-size: large;
+    }
+    .game-rules__caption {
+        display: flex;
+        top: -46%;
+        left: 6%;
+        font-size: 10px;
+        width: 56vw;
+    }
+    .game-rules__content {
+        height: 73vh;
+    }
+    .game-rules {
+        height: 79vh;
+        margin-top: -49px;
+    }
+    .footer__menu {
+        font-size: 10px;
+        justify-content: normal;
+        gap: 3.8em;
+    }
+    
+}
+@media (max-width: 400px){
+    
+    .game-rules__title {
+        top: 30%;
+        left: 3%;
+        font-size: 13px;
+    }
+    .game-rules__caption {
+        top: -31%;
+        left: 3%;
+        font-size: 7px;
+        width: 52vw;
+    }
+    .game-rules {
+        height: 60vh;
+        margin-top: -49px;
+    }
+    .game-rules__image2 {
+            right: -57%;
+            top: -72%;
+    }
+    .footer__menu {
+        font-size: 10px;
+        justify-content: left;
+        gap: 2.6em;
+    }
+    .site-header {
+        height: 16vh;
+        width: 100vw;
+    }
+    .site-header__aside {
+        align-items: normal;
+        font-size: small;
+        justify-content: normal;
+        gap: 1em;
+    }
+    .game-rules__image1 {
+       
+        width: 94vw;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .site-header {
+        height: 11vh;
+    }
+    .game-rules__title {
+        top: 28%;
+        left: 6%;
+        font-size: 13px;
+    }
+    .game-rules__caption {
+        top: -25%;
+        left: 5%;
+        font-size: 7px;
+        width: 52vw;
+    }
+    .footer__menu {
+        font-size: 10px;
+        justify-content: left;
+        gap: 1.3em;
+    }
+    .site-header__aside {
+        align-items: normal;
+        font-size: small;
+        justify-content: normal;
+        gap: 1em;
+    }
+    .game-rules__image2 {
+        right: -60%;
+        top: -70%;
+    }
+}
